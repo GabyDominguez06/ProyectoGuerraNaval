@@ -6,12 +6,14 @@ Descripción:
 Juego de Guerra Naval para dos jugadores, hecho en Python. Cada jugador coloca sus barcos en un tablero de 10x10 y, por turnos, dispara al tablero del rival. Gana quien hunda primero todos los barcos del otro.
 
 Modos de juego:
+
 -Modo local: dos jugadores en la misma computadora, por turnos. La pantalla se limpia entre turnos para que no se vea la flota del otro
 - Modo multijugador por LAN: un jugador es el servidor (controla la partida) y el otro es el cliente. Se comunican por sockets TCP
   
 Requisitos:
 - Python 3.8 o superior.
 - No necesita instalar librerías externas (solo usa socket, random y os de la biblioteca estándar)
+  
 Cómo ejecutar:
 python juego.py
 Aparece un menú con las opciones: jugar en local, jugar como servidor, jugar como cliente, ver reglas y salir.
@@ -42,4 +44,5 @@ Créditos y declaración de autoría:
 - Código de terceros: no se copió código de otros proyectos
 - Uso de IA:el código inicial de esta fase se generó con ayuda de Claude, a partir de los diagramas y requisitos de las fases 1 y 2 del equipo. Después fue revisado y probado por el equipo
 - Trabajo del equipo sobre ese código: revisión y pruebas en modo local y en modo LAN, y explicación de su funcionamiento en el video explicativo
+  
 -Recursos visuales: los diagramas de las fases 1 y 2 fueron elaborados por el equipo. El juego se muestra en la consola, sin imágenes externas
