@@ -32,7 +32,9 @@ Cómo se juega:
 - El turno inicial se sortea al azar
   
 Estado actual (Fase 3):
+
 Hecho: modo local completo, servidor y cliente por sockets TCP, validación de disparos, detección de tocado/hundido, ganador y aviso de desconexión
+
 Pendiente: volver a jugar en modo LAN, interfaz gráfica (planeada para la entrega final; el juego ya está separado en lógica, servidor y cliente para poder agregarla) y pruebas en las máquinas virtuales del proyecto
 
 Licencia:
